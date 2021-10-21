@@ -9,7 +9,7 @@ public class Room {
     private int quests;
     private double rate;
     private boolean smoking;
-    private static NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.US);
+    private static NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.UK);
 
     public void readRoom(Scanner diskScanner) {
         quests = diskScanner.nextInt();
